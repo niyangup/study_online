@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix::before,
+.clearfix::after {
+  display: table;
+  clear: both;
+  content: '';
+}
+
+/*版心*/
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #f3f5f7;
+}
+
+a {
+  text-decoration: none;
+  color: #050505;
+}
+
+li {
+  list-style-type: none;
+}
