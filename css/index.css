@@ -17,12 +17,12 @@
 }
 
 body {
-  background-color: #f3f5f7;
+  background-color: #dedede;
 }
 
 a {
+  color: inherit;
   text-decoration: none;
-  color: #050505;
 }
 
 li {
@@ -111,4 +111,228 @@ li {
 .hello {
   height: 42px;
   background: #00b4ff;
+}
+
+.banner {
+  height: 420px;
+  background-color: #1c036c;
+}
+
+.banner .wrapper {
+  height: 420px;
+  background-image: url("../images/banner2.png");
+}
+
+.banner .wrapper .left {
+  float: left;
+  width: 190px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.banner .wrapper .right {
+  float: right;
+  width: 228px;
+  height: 300px;
+  background-color: white;
+  margin-top: 50px;
+}
+
+.banner .wrapper .left li {
+  margin-top: 22px;
+  cursor: pointer;
+  color: white;
+}
+
+.banner .wrapper .left li a {
+  font-size: 14px;
+}
+
+.banner .wrapper .left li:hover {
+  color: #00b4ff;
+}
+
+.banner .wrapper .left li a span {
+  float: right;
+}
+
+.banner .wrapper .right h2 {
+  height: 48px;
+  background-color: #9bceea;
+  text-align: center;
+  line-height: 48px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.banner .wrapper .right .content {
+  padding: 0 18px;
+}
+
+.banner .wrapper .right .content h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #4e4e4e;
+}
+
+.banner .wrapper .right .content h3 span {
+  font-size: 14px;
+}
+
+.banner .wrapper .right .content p {
+  font-size: 12px;
+  color: #a5a5a5;
+}
+
+.banner .wrapper .right .content li {
+  padding: 14px 0;
+  border-bottom: 2px solid #e5e5e5;
+}
+
+.banner .wrapper .right .btn a {
+  display: block;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  margin: 4px 14px 11px;
+  background-color: #fff;
+  border: 1px solid #00b4ff;
+  font-weight: bold;
+  color: #00b4ff;
+  font-size: 16px;
+}
+
+.recommend {
+  margin-top: 8px;
+  height: 60px;
+  background-color: white;
+  box-shadow: 0 2px 3px 0 rgba(118, 118, 118, 0.2);
+  line-height: 60px;
+  padding-left: 34px;
+  padding-right: 26px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #050505;
+}
+
+.recommend h2 {
+  float: left;
+  font-size: inherit;
+  font-weight: normal;
+  color: #00b4ff;
+  margin-right: 30px;
+}
+
+.recommend li {
+  float: left;
+}
+
+.recommend li a {
+  border-left: 1px solid #bfbfbf;
+  padding: 0 30px;
+}
+
+.recommend .recommend-modify {
+  float: right;
+  color: #00b4ff;
+  font-size: 14px;
+}
+
+.lesson {
+  margin-top: 35px;
+}
+
+.lesson .title {
+  height: 40px;
+}
+
+.lesson .title h2 {
+  float: left;
+  font-size: 20px;
+  color: #494949;
+  font-weight: normal;
+}
+
+.lesson .title a {
+  float: right;
+  font-size: 12px;
+  color: #a5a5a5;
+  margin-right: 30px;
+  margin-top: 8px;
+}
+
+.lesson .content li {
+  float: left;
+  width: 228px;
+  height: 270px;
+  background-color: #fff;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.lesson .content li:nth-child(5n) {
+  margin-right: 0;
+}
+
+.lesson .content li a img {
+  width: 100%;
+}
+
+.lesson .content li a h3 {
+  margin: 20px;
+  font-size: 14px;
+  color: #050505;
+  font-weight: normal;
+}
+
+.lesson .content li a p {
+  margin: 0 20px;
+  font-size: 12px;
+  color: #999;
+}
+
+.lesson .content li a p span {
+  color: #ff7c2c;
+}
+
+.footer {
+  height: 417px;
+  margin-top: 40px;
+  background-color: #fff;
+}
+
+.footer .left {
+  float: left;
+}
+
+.footer .right {
+  float: right;
+}
+
+.footer .wrapper {
+  padding-top: 30px;
+}
+
+.footer .left p {
+  margin: 20px 0 10px;
+  font-size: 12px;
+  color: #666;
+}
+
+.footer .left .download a{
+  display: block;
+  width: 120px;
+  height: 36px;
+  border: 1px solid #00b4ff;
+  text-align: center;
+  line-height: 36px;
+  font-size: 16px;
+  color: #00b4ff;
+}
+
+.footer .right dl {
+  float: left;
+  margin-left: 120px;
 }
