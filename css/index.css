@@ -276,7 +276,7 @@ li {
   margin-right: 0;
 }
 
-.lesson .content li a img {
+.lesson .content li a:last-child {
   width: 100%;
 }
 
@@ -321,7 +321,7 @@ li {
   color: #666;
 }
 
-.footer .left .download a{
+.footer .left .download a {
   display: block;
   width: 120px;
   height: 36px;
@@ -335,4 +335,14 @@ li {
 .footer .right dl {
   float: left;
   margin-left: 120px;
+}
+
+.lesson-main {
+  position: relative;
+}
+
+.lesson-main .lesson-hot {
+  position: absolute;
+  top: 4px;
+  right: -10px;
 }
